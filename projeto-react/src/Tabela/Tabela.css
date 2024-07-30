@@ -1,0 +1,50 @@
+.blocoTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.table {
+    width: 100%;
+    max-width: 30rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#item-title {
+    padding-inline: 35px;
+}
+
+p {
+    margin-block: 20px;
+}
+
+#th-titulo {
+    color: rgba(255, 127, 80, 1.0);
+    background-color: #F3F2F3;
+    margin-top: 40px;
+}
+
+#td-bg {
+    background-color: #F3F2F3;
+}
+
+
+@media (max-width: 768px) {
+    .blocoTab {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .table {
+        max-width: 100%; 
+    }
+
+    #item-title {
+        padding-inline: 20px;
+        margin-block: 0;
+    }
+}

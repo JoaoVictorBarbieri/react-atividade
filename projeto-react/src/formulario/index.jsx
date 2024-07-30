@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "../Formulario/Formulario.module.css";
+import styles from "./Formulario.module.css";
 import { calcularIMC, msgTexto } from "../Formula/IMC";
 
 const Formulario = () => {
