@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../Perfil.css";
+import styles from "./Perfil.css";
 import medicImage from "../Image/medic.png";
 
 const Perfil = () => {

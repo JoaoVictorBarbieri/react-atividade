@@ -37,9 +37,6 @@ button {
     transition: background 0.3s ease;
     margin: 10px 0;
 
-    &:hover {
-        background: #157347;
-    }
 }
 
 @media (max-width: 768px) {
