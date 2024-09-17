@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import styles from "./Formulario.module.css";
-import { calcularIMC, msgTexto } from "../Formula/IMC";
+import styles from "./Formulario.css";
+import { calcularIMC, msgTexto } from "../Calculo/Imc";
 
 const Formulario = () => {
   const [peso, setPeso] = useState("");
@@ -118,7 +118,7 @@ const Formulario = () => {
           </tbody>
         </table>
       ) : (
-        <p>Saiba agora se está no seu peso ideal!</p>
+        <p>Descubra agora se está no seu peso ideal</p>
       )}
     </>
   );

@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css"; 
-import "../Tabela/Tabela.modules.css";
+import "./Tabela.css";
 
-function TabelaIMC() {
+function TabelaImc() {
   return (
     <div className="blocoTab">
       <table className="table">
@@ -45,3 +45,5 @@ function TabelaIMC() {
     </div>
   );
 }
+
+export default TabelaImc;

@@ -12,10 +12,10 @@ export function calcularIMC(peso, altura) {
     } else if (IMC < 29.99) {
       return "Acima do peso";
     } else if (IMC < 34.99) {
-      return "Obesidade grau 1";
+      return "Obesidade de grau 1";
     } else if (IMC < 39.99) {
-      return "Obesidade grau 2 (Severa)";
+      return "Obesidade de grau 2 (Severa)";
     } else {
-      return "Obesidade grau 3 (Mórbida)";
+      return "Obesidade de grau 3 (Mórbida)";
     }
   }

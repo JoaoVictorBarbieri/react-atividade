@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from "../Perfil/Perfil.module.css";
-import medicImage from "../imagens/medic.png";
+import styles from "../Perfil.css";
+import medicImage from "../Image/medic.png";
 
 const Perfil = () => {
   return (
@@ -10,7 +10,7 @@ const Perfil = () => {
         src={medicImage}
         alt=""
       />
-      <h1 className={styles.name}>CALCULADORA DE IMC</h1>
+      <h1 className={styles.name}>CALCULADORA DE IMC </h1>
     </header>
   );
 };
